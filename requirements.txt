@@ -1,0 +1,11 @@
+python-dotenv
+requests
+pandas
+pyzotero
+biopython
+pyalex
+azure-ai-documentintelligence
+azure-core
+citeproc-py
+openai
+tiktoken
