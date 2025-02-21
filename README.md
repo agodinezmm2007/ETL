@@ -19,11 +19,22 @@ citation management, and uses an LLM (via OpenAI) to extract additional structur
    ```bash
    git clone https://github.com/agodinezmm2007/ETL.git
    cd ETL
-2. Install Dependencies: Ensure you have Python 3.7+ installed, then run:
    pip install -r requirements.txt
- 3. Configure the Project:
-    * Update the configuration section in the script with your API keys, email addresses, endpoints, and file paths.
-    * Download the required CSL style files (e.g., from [Zotero Styles](https://www.zotero.org/styles)) and update the paths accordingly.
+2. Install Dependencies: Ensure you have Python 3.7+ installed, then run:
+   
+   ```pip install -r requirements.txt```
+   
+4. Install Jupyter: If you don't have it already, install Jupyter Notebook (or JupyterLab) by running:
+   
+     ```pip install notebook```
+  
+   or
+   
+     ```pip install jupyterlab```
+  
+5. Configure the Project:
+   * Update the configuration section in the script with your API keys, email addresses, endpoints, and file paths.
+   * Download the required CSL style files (e.g., from [Zotero Styles](https://www.zotero.org/styles)) and update the paths accordingly.
    
 - ## Usage
   - Run the pipeline with:
